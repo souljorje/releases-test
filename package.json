@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/souljorje/releases-test/issues"
   },
-  "homepage": "https://github.com/souljorje/releases-test#readme"
+  "homepage": "https://github.com/souljorje/releases-test#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
