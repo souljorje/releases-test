@@ -1,0 +1,22 @@
+{
+  "name": "releases-test",
+  "version": "0.0.0",
+  "description": "Automate releases, versioning and release notes like a boss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souljorje/releases-test.git"
+  },
+  "keywords": [
+    "release"
+  ],
+  "author": "Georgii Bukharov <souljorje@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/souljorje/releases-test/issues"
+  },
+  "homepage": "https://github.com/souljorje/releases-test#readme"
+}
