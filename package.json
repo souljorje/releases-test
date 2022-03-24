@@ -1,5 +1,5 @@
 {
-  "name": "releases-test",
+  "name": "@souljorje/releases-test",
   "version": "0.0.0-development",
   "description": "Automate releases, versioning and release notes like a boss",
   "main": "index.js",
