@@ -4,7 +4,8 @@
   "description": "Automate releases, versioning and release notes like a boss",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "echo \"No test specified\"",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,9 @@
   },
   "homepage": "https://github.com/souljorje/releases-test#readme",
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.4"
   },
   "config": {
     "commitizen": {
