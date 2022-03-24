@@ -1,15 +1,16 @@
 {
   "name": "releases-test",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "Automate releases, versioning and release notes like a boss",
   "main": "index.js",
   "scripts": {
     "test": "echo \"No test specified\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/souljorje/releases-test.git"
+    "url": "https://github.com/souljorje/releases-test.git"
   },
   "keywords": [
     "release"
@@ -21,9 +22,11 @@
   },
   "homepage": "https://github.com/souljorje/releases-test#readme",
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "semantic-release": "^19.0.2"
   },
   "config": {
     "commitizen": {
