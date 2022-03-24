@@ -1,6 +1,6 @@
 {
   "name": "@souljorje/releases-test",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Automate releases, versioning and release notes like a boss",
   "main": "index.js",
   "scripts": {
