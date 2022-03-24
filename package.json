@@ -3,6 +3,10 @@
   "version": "0.0.0-development",
   "description": "Automate releases, versioning and release notes like a boss",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "test": "echo \"No test specified\"",
     "prepare": "is-ci || husky install",
